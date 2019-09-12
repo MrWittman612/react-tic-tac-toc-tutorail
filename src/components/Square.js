@@ -4,7 +4,7 @@ export default class Square extends React.Component {
   render() {
     return (
       <div>
-        <button className="square">{/* TODO */}</button>
+        <button className="square">{this.props.value}</button>
       </div>
     );
   }
