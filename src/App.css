@@ -14,9 +14,10 @@ ul {
 }
 
 .status {
-  background: #fff;
+  margin-bottom: 10px;
+  /* background: #fff;
   border: 1px solid #999;
-  float: left;
+  float: left; */
 }
 .square {
   background: #fff;
@@ -39,7 +40,7 @@ ul {
 
 .game {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .game-info {
